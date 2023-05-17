@@ -1,0 +1,50 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+
+  /* For WebKit browsers (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 5px; /* Adjust the width as needed */
+}
+
+/* For Firefox */
+scrollbar-width: thin; /* Adjust the width as needed */
+scrollbar-color: #DC2626 #f2f2f2; /* Adjust the colors as needed */
+
+
+/* For WebKit browsers */
+::-webkit-scrollbar-thumb {
+  background-color: #DC2626; /* Adjust the color as needed */
+  border-radius: 6px; /* Adjust the border radius as needed */
+}
+
+/* For Firefox */
+scrollbar-color: #DC2626 #f2f2f2; /* Adjust the colors as needed */
+scrollbar-width: thin; /* Adjust the width as needed */
+
+
+/* For WebKit browsers */
+::-webkit-scrollbar-track {
+  background-color: #f2f2f2; /* Adjust the color as needed */
+}
+
+/* For Firefox */
+scrollbar-color: #DC2626 #f2f2f2; /* Adjust the colors as needed */
+scrollbar-width: thin; /* Adjust the width as needed */
+
+}

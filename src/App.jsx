@@ -1,5 +1,5 @@
 import "./App.css";
-import { ThemeProvider } from "./Context/themeContext";
+import { ThemeProvider } from "./Context/ThemeContext";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Header from "./components/Header/Header";

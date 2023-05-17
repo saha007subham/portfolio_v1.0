@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { ThemeContext } from "../../Context/themeContext";
+import { ThemeContext } from "../../Context/ThemeContext";
 import Buttons from "../Buttons/Buttons";
 import AllProjects from "../AllProjects/AllProjects";
 import WebsiteTab from "../WebsiteTab/WebsiteTab";

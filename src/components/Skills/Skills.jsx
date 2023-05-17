@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ThemeContext } from "../../Context/themeContext";
+import { ThemeContext } from "../../Context/ThemeContext";
 import SkillsCard from "../SkillsCard/SkillsCard";
 import { skills } from "../../utils/skills";
 

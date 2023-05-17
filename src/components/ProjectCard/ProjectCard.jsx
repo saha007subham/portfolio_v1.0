@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { FaVideo } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { ThemeContext } from "../../Context/themeContext";
+import { ThemeContext } from "../../Context/ThemeContext";
 
 const ProjectCard = ({ img, name, des, span, stack, url, github }) => {
   const { isDarkTheme } = useContext(ThemeContext);

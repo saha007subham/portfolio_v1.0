@@ -1,6 +1,6 @@
 import "./Header.css";
 import React, { useContext, useState } from "react";
-import { ThemeContext } from "../../Context/themeContext";
+import { ThemeContext } from "../../Context/ThemeContext";
 import { FaAlignRight } from "react-icons/fa";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { BsFillMoonFill } from "react-icons/bs";

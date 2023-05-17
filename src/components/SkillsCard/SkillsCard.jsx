@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ThemeContext } from "../../Context/themeContext";
+import { ThemeContext } from "../../Context/ThemeContext";
 
 const SkillsCard = ({ name, img }) => {
   const { isDarkTheme } = useContext(ThemeContext);

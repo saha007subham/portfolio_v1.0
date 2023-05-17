@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { ThemeContext } from "../../Context/themeContext";
+import { ThemeContext } from "../../Context/ThemeContext";
 import AboutMe from "../AboutMe/AboutMe";
 import Experience from "../Experience/Experience";
 import coding from "../../assets/coding1.png.png";

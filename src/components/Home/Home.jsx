@@ -1,7 +1,7 @@
 import Typewriter from "../Typewriter/Typewriter";
 import profile from "../../assets/FB-Profile-Pic.jpg";
 import { useContext } from "react";
-import { ThemeContext } from "../../Context/themeContext";
+import { ThemeContext } from "../../Context/ThemeContext";
 import ResumeButton from "../Resume/Resume";
 
 const Home = () => {

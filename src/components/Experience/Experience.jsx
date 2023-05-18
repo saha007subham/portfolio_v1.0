@@ -1,12 +1,14 @@
 const Experience = () => {
   return (
-    <div>
+    <div className="max-[400px]:p-5">
       <div className="mb-2">
-        <p className="text-lg text-end text-red-600 mb-1 font-semibold">
+        <p className="text-lg text-end text-red-600 mb-1 font-semibold max-[400px]:text-center">
           Frontend Developer at AppyCodes
         </p>
-        <p className="text-lg text-end font-semibold">October 2022 - Present</p>
-        <p className="text-[18px] text-start mb-1 font-semibold">
+        <p className="text-lg text-end font-semibold max-[400px]:text-center max-[400px]:mb-5">
+          October 2022 - Present
+        </p>
+        <p className="text-[18px] text-start mb-1 font-semibold ">
           Roles and responsibilites:-
         </p>
         <ul className="list-disc text-lg mb-6">
@@ -22,10 +24,10 @@ const Experience = () => {
         </ul>
       </div>
       <div>
-        <p className="text-lg text-end text-red-600 mb-1 font-semibold">
+        <p className="text-lg text-end text-red-600 mb-1 font-semibold max-[400px]:text-center">
           Junior Developer at IVDisplays Digital Services Pvt Ltd
         </p>
-        <p className="text-lg text-end font-semibold">
+        <p className="text-lg text-end font-semibold max-[400px]:text-center max-[400px]:mb-5">
           July 2022 - October 2022
         </p>
         <p className="text-[18px] text-start font-semibold">

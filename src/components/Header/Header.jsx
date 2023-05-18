@@ -16,7 +16,7 @@ const Header = () => {
       }`}
     >
       <div>
-        <p className="sm:text-[35px] font-semibold tracking-wide">
+        <p className="sm:text-[35px] font-semibold tracking-wide max-[400px]:text-2xl">
           Sub<span className="text-red-600">ham</span>
         </p>
       </div>

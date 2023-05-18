@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div>
+    <div className="max-[400px]:p-5">
       <ul className="list-disc text-lg">
         <li className="mb-5">
           Hello! My name is Subham Saha & I enjoy creating things that live on

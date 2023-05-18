@@ -11,8 +11,9 @@ export const projects = [
     des: "This project is about building an online E-commerce food web application showing the functionalities of an e-commerce food website like sorting & search food, add to cart, trending items etc.",
     span: "Tech Stack :",
     stack: "HTML, CSS, JavaScript, ReactJS, Redux Toolkit and Rest API",
-    url: "https://saha007subham.github.io/Throw-Dice/",
+    url: "https://zwigato-app.vercel.app/",
     github: "https://github.com/saha007subham/zwigato-app",
+    video: "https://www.youtube.com/watch?v=MP5Mga8E2Sw",
   },
   {
     id: 2,

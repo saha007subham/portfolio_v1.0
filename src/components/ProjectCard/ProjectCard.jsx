@@ -4,8 +4,12 @@ import { FaEye } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { ThemeContext } from "../../Context/ThemeContext";
 
-const ProjectCard = ({ img, name, des, span, stack, url, github }) => {
+const ProjectCard = ({ img, name, des, span, stack, url, github, video }) => {
   const { isDarkTheme } = useContext(ThemeContext);
+
+  const handleOpenVideo = () => {
+    window.open(video, "_blank");
+  };
 
   const handleIconClick = () => {
     window.open(url, "_blank");
@@ -29,7 +33,7 @@ const ProjectCard = ({ img, name, des, span, stack, url, github }) => {
       </p>
       <div className="flex justify-evenly items-center mt-3">
         <div className="hover:bg-red-600 p-3 rounded-full cursor-pointer">
-          <FaVideo size={30} />
+          <FaVideo size={30} onClick={handleOpenVideo} />
         </div>
         <div className="hover:bg-red-600 p-3 rounded-full cursor-pointer">
           <FaEye size={30} onClick={handleIconClick} />

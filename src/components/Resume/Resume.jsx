@@ -3,7 +3,7 @@ import React from "react";
 const ResumeButton = () => {
   const handleDownload = () => {
     const pdfLink =
-      "https://drive.google.com/file/d/1PzbjhTs0nFTEA4lS1hEmnHNqxp0UpCMk/view?usp=sharing";
+      "https://drive.google.com/file/d/1Jqo8gCPl1z-Ax6T1xoyx2j-aCpAyawrw/view";
     window.open(pdfLink, "_blank");
   };
 

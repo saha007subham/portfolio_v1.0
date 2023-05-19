@@ -47,7 +47,7 @@ const About = () => {
           Experience
         </button>
       </div>
-      <div className="flex justify-center items-center p-3 max-[400px]:block">
+      <div className="flex justify-center items-center p-3 max-[600px]:block">
         <div>
           <img src={coding} className="w-[90%]" />
         </div>

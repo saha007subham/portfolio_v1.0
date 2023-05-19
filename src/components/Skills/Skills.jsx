@@ -18,7 +18,7 @@ const Skills = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-6 place-items-center p-5 pb-0">
+      <div className="grid grid-cols-6 place-items-center p-5 pb-0 max-[600px]:grid-cols-3 max-[450px]:grid-cols-2">
         {skills.map((skill) => {
           return <SkillsCard {...skill} key={skill.id} />;
         })}

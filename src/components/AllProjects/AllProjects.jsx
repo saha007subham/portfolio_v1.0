@@ -3,7 +3,7 @@ import { projects } from "../../utils/projects";
 
 const AllProjects = () => {
   return (
-    <div className="flex flex-wrap justify-around mt-8 pt-4">
+    <div className="flex flex-wrap justify-around mt-8 pt-4 max-[600px]:block">
       {projects.map((data) => {
         return <ProjectCard {...data} key={data.id} />;
       })}

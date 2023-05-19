@@ -30,14 +30,14 @@ const Contact = () => {
           <span className="text-red-600"> Chat</span> With Me
         </h1>
       </div>
-      <div className="mt-10 flex ">
-        <div className="w-1/2">
+      <div className="mt-10 flex max-[600px]:block">
+        <div className="w-1/2 max-[600px]:w-full">
           <img
             src="https://mohit-portfolio.vercel.app/assets/contact.f495edec.svg"
             alt="work"
           />
         </div>
-        <div className="w-1/2 pl-20 pr-20">
+        <div className="w-1/2 pl-20 pr-20 max-[600px]:w-full max-[600px]:mt-10 max-[600px]:p-5 max-[400px]:p-5">
           <div className="flex gap-5">
             <button
               className={`${

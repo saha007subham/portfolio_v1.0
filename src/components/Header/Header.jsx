@@ -52,10 +52,21 @@ const Header = () => {
           )}
         </ul>
       </div>
-      <FaAlignRight
-        className="ml-8 lg:hidden md:hidden"
-        onClick={() => setToggleMenu(true)}
-      />
+      <div className="max-[600px]:w-28 max-[600px]:flex max-[600px]:justify-evenly max-[600px]:items-center lg:hidden md:hidden">
+        <FaAlignRight
+          className="ml-8 lg:hidden md:hidden"
+          onClick={() => setToggleMenu(true)}
+        />
+        {isDarkTheme ? (
+          <div className="cursor-pointer lg:hidden md:hidden">
+            <BsFillSunFill onClick={toggleTheme} size={25} />
+          </div>
+        ) : (
+          <div className="cursor-pointer lg:hidden md:hidden">
+            <BsFillMoonFill onClick={toggleTheme} size={20} />
+          </div>
+        )}
+      </div>
       {toggleMenu && (
         <div
           className={`w-full h-[100vh] position: absolute left-0 top-0 flex justify-center text-lg font-medium ${

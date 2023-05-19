@@ -23,7 +23,7 @@ const ProjectCard = ({ img, name, des, span, stack, url, github, video }) => {
     <div
       className={`${
         isDarkTheme ? "bg-[#0b111b] text-white" : "bg-white text-black"
-      } w-[45%] p-7 rounded-xl mb-14 shadow-md`}
+      } w-[45%] p-7 rounded-xl mb-14 shadow-md max-[600px]:w-full`}
     >
       <img src={img} alt="zwigato" className="w-full rounded-lg" />
       <p className="text-xl font-bold text-center mt-3">{name}</p>
